@@ -45,7 +45,8 @@ addBtn2.addEventListener('click'  , () =>  {
    number.style.backgroundColor = 'black'
    newUserList.append(number)
     number.innerHTML = '+'
-   
+   nameInp.value = ''
+   idInp.value = ''
     plus()
 removeBtn.addEventListener('click',()=> {
     newUser.style.display = 'none'
