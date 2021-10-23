@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: #292929;
+  font-family: "Orbitron", sans-serif;
+}
+
+.user-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.user-section h1 {
+  color: #a3a2a2;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.user-section .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 900px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #646464;
+  margin-bottom: 20px;
+}
+
+.user-section .users-block {
+  background-color: black;
+}
+
+.user-section .users-block .my-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  padding: 5px;
+}
+
+.user-section .users-block .my-user .btn-block {
+  background-color: black;
+}
+
+.user-section .users-block .my-user .btn-block .add-btn {
+  background-color: #33ad33;
+  border: 2px black solid;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.user-section .users-block .my-user .btn-block .remove-btn {
+  border: 2px solid black;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #b91818;
+}
+
+.user-section .users-block .user-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px;
+  color: #b8b8b8;
+  width: 100%;
+  background-color: black;
+}
+
+.user-section .users-block .user-list li {
+  background-color: black;
+}
+
+.add-block {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #292929;
+  top: 0;
+  opacity: 0.8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+  z-index: 1;
+}
+
+.add-block .add-menu {
+  background-color: black;
+  padding: 40px 20px 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.add-block .add-menu .add-btn-2 {
+  background-color: #33ad33;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.add-block .add-menu input {
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px white solid;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
