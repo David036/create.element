@@ -54,6 +54,10 @@
   background-color: black;
 }
 
+.user-section .users-block .my-user .btn-block .add-btn:hover {
+  background-color: #4cf14c;
+}
+
 .user-section .users-block .my-user .btn-block .add-btn {
   background-color: #33ad33;
   border: 2px black solid;
@@ -61,6 +65,10 @@
   font-size: 15px;
   padding: 5px;
   cursor: pointer;
+}
+
+.user-section .users-block .my-user .btn-block .remove-btn:hover {
+  background-color: red;
 }
 
 .user-section .users-block .my-user .btn-block .remove-btn {
@@ -120,6 +128,10 @@
   width: 100%;
   position: absolute;
   z-index: 2;
+}
+
+.add-block .add-menu .add-btn-2:hover {
+  background-color: #4cf14c;
 }
 
 .add-block .add-menu .add-btn-2 {

@@ -33,6 +33,9 @@
         padding: 5px;
         .btn-block {
         background-color: black;
+        .add-btn:hover {
+          background-color:rgb(76, 241, 76);
+        }
         .add-btn {
             background-color: rgb(51, 173, 51);
             border: 2px black solid;
@@ -40,6 +43,9 @@
             font-size: 15px;
             padding: 5px;
             cursor: pointer;
+        }
+        .remove-btn:hover {
+          background-color: rgb(255, 0, 0);
         }
         .remove-btn {
           border: 2px solid black;
@@ -87,6 +93,9 @@
         width: 100%;
         position: absolute;
         z-index: 2;
+        .add-btn-2:hover {
+          background-color:rgb(76, 241, 76) ;
+        }
         .add-btn-2 {
             background-color: rgb(51, 173, 51);
             border: none;

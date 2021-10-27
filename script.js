@@ -39,7 +39,7 @@ addBtn2.addEventListener('click'  , () =>  {
    let day = document.createElement('li')
    day.style.backgroundColor = 'black'
    newUserList.append(day)
-   day.innerHTML = '25.Oct.2021'
+   day.innerHTML = '27.Oct.2021'
    addBlock.style.display = 'none'
    let number = document.createElement('li')
    number.style.backgroundColor = 'black'
